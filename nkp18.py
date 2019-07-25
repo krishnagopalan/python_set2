@@ -1,7 +1,7 @@
-lower = int(input())
-upper = int(input())
+frist = int(input())
+last = int(input())
  
-for num in range(lower,upper + 1):
+for num in range(frist,last + 1):
    sum = 0
    temp = num
    while temp > 0:
